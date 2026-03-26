@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM alpine:3.21
 
-ARG AGYND_VERSION=0.3.0
+ARG AGYND_VERSION
 ARG CODEX_VERSION
 ARG TARGETARCH
 
